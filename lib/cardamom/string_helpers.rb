@@ -48,11 +48,11 @@ module StringHelpers
   # sanitize_dirty_string "Ge-o/rg.e        O'Hara"
   # => "George O Hara"
   def sanitize_dirty_string(str)
-    str.strip.gsub(".", "")
-             .gsub("-", "")
-             .gsub("_", "")
-             .gsub("/", "")
-             .gsub("'", " ")
-             .gsub(/\s+/, ' ')
+    str.to_s.strip.gsub(".", "")
+                  .gsub("-", "")
+                  .gsub("_", "")
+                  .gsub("/", "")
+                  .gsub("'", " ")
+                  .gsub(/\s+/, ' ')
   end
 end
