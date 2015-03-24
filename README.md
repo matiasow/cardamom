@@ -37,3 +37,12 @@ To use ALL helpers available:
 require 'cardamom'
 Cuba.plugin Cardamom
 ```
+
+## Available Helpers
+
+As of today, available helpers are:
+
+ - StringHelpers
+ - HashHelpers
+ - JsonHelpers
+ - ResponseHelpers
