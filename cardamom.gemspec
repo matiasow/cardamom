@@ -2,7 +2,7 @@ Gem::Specification.new do |s|
   s.name        = "cardamom"
   s.version     = "0.1.0"
   s.summary     = "Cardamom: Spice up your Cuba app!"
-  s.description = "Ruby helpers for Cuba apps"
+  s.description = "Helpers for Cuba apps"
   s.authors     = ["matiasow"]
   s.email       = ["matiasow@gmail.com"]
   s.homepage    = "http://github.com/matiasow/cardamom"
