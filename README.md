@@ -46,3 +46,7 @@ As of today, available helpers are:
  - HashHelpers
  - JsonHelpers
  - ResponseHelpers
+
+## License
+
+Cardamom is released under the [MIT License](http://www.opensource.org/licenses/MIT).
