@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = "cardamom"
-  s.version     = "0.1.0"
+  s.version     = "0.1.1"
   s.summary     = "Cardamom: Spice up your Cuba app!"
   s.description = "Helpers for Cuba apps"
   s.authors     = ["matiasow"]
