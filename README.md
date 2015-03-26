@@ -28,7 +28,7 @@ Only use what you need. For instance, if you just want to use ```string_helpers`
 ```ruby
 require 'cardamom/string_helpers'
 
-Cuba.plugin StringHelpers
+Cuba.plugin Cardamom::StringHelpers
 ```
 
 To use ALL helpers available:
