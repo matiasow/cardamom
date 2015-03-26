@@ -1,0 +1,22 @@
+Inspecting 5 files
+....C
+
+Offenses:
+
+lib/cardamom/string_helpers.rb:24:45: C: Avoid the use of Perl-style backrefs.
+      s.gsub!(/(?:_|(\/))([a-z\d]*)/i) { "#{$1}#{$2.capitalize}" }
+                                            ^^
+lib/cardamom/string_helpers.rb:24:50: C: Avoid the use of Perl-style backrefs.
+      s.gsub!(/(?:_|(\/))([a-z\d]*)/i) { "#{$1}#{$2.capitalize}" }
+                                                 ^^
+lib/cardamom/string_helpers.rb:38:61: C: Avoid the use of Perl-style backrefs.
+      s.gsub!(/(?:(?<=([A-Za-z\d]))|\b)(?=\b|[^a-z])/) { "#{$1 && '_'}#{$2.to_s.downcase}" }
+                                                            ^^
+lib/cardamom/string_helpers.rb:38:73: C: Avoid the use of Perl-style backrefs.
+      s.gsub!(/(?:(?<=([A-Za-z\d]))|\b)(?=\b|[^a-z])/) { "#{$1 && '_'}#{$2.to_s.downcase}" }
+                                                                        ^^
+lib/cardamom/string_helpers.rb:38:81: C: Line is too long. [92/80]
+      s.gsub!(/(?:(?<=([A-Za-z\d]))|\b)(?=\b|[^a-z])/) { "#{$1 && '_'}#{$2.to_s.downcase}" }
+                                                                                ^^^^^^^^^^^^
+
+5 files inspected, 5 offenses detected

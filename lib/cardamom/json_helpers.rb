@@ -1,6 +1,7 @@
 require 'cuba'
 
 module Cardamom
+  # Helpers to handle json data
   module JsonHelpers
     def json_payload
       body = req.body.read
@@ -13,7 +14,7 @@ module Cardamom
 
     def json(status, data)
       res.status = status
-      res.headers["Content-Type"] = "application/json"
+      res.headers['Content-Type'] = 'application/json'
       res.write MultiJson.dump(data)
     end
   end

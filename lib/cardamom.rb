@@ -3,6 +3,7 @@ require 'cardamom/hash_helpers.rb'
 require 'cardamom/json_helpers.rb'
 require 'cardamom/response_helpers.rb'
 
+# Cardamom Helpers
 module Cardamom
   include StringHelpers
   include HashHelpers
