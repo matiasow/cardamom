@@ -11,7 +11,7 @@
 [codeclimate]: https://codeclimate.com/github/matiasow/cardamom
 [travis]: https://travis-ci.org/matiasow/cardamom
 
-Helpers for Cuba apps
+Helpers for [Cuba](https://github.com/soveran/cuba) apps
 
 ## Installation
 
